@@ -1,0 +1,98 @@
+#navigation {
+	width: 139px;
+	float: right;
+}
+
+body {
+	font-family: Comic Sans MS;
+	font-size: 0.8em;
+	background-image: url("../images/stripes.png");
+	background-color: #cccccc;
+	background-repeat: repeat-y;
+	text-align: right;
+}
+
+#container {
+	width: 620px;
+	margin: auto;
+	padding: 10px;
+	border-right: 2px solid #725972;
+	border-bottom: 2px solid #725972;
+	border-left: 2px solid #725972;
+	background-color: #fff;
+	border: 8px double #4D1F38;
+}
+
+#masthead {
+	text-align: center;
+	width: 600px;
+	padding: 10px;
+}
+
+#content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 470px;
+	float: right;
+	padding-right: 10px;
+	
+}
+
+#footer {
+	text-align: center;
+	width: 618px;
+	border: 1px dotted #dfb8dd;
+	clear: both;
+}
+
+/* Masthead Styles */
+#masthead h1 {
+	color: #A14075;
+	font-family: Jokerman;
+}
+#masthead h3 {
+	color: #402640;
+}
+
+/* Content Styles */
+#content h1,h2,h3,h4,h5,h6 {
+	color: #503750;
+}
+
+/* Footer Styles */
+#footer p {
+	color: #808080;
+}
+#footer a {
+	color: #503750;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #402640;
+	text-decoration: none;
+	color: #402640;
+	background-color: #fff;
+}
+/* Navigation Styles */
+#navigation a{
+	color: #402640;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	border: 1px dashed #4D1F38;
+	font-family: Comic Sans MS;
+	text-align: left;
+}
+#navigation ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #4D1F38;
+	border-color: #dfb8d;
+	text-align: right;
+	font-family: Jokerman;
+}
